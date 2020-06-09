@@ -12,7 +12,7 @@ public class JokeController {
     private JokeService jokeService;
 
     @Autowired
-    public JokeController(JokeService jokeService) {
+    public void test(JokeService jokeService) {
         this.jokeService = jokeService;
     }
 
